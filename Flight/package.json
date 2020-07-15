@@ -1,0 +1,14 @@
+{
+  "name": "flight",
+  "version": "1.0.0",
+  "description": " Landing page for Flight",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/style.scss Flight/style.css -w"
+  },
+  "author": "DM",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
